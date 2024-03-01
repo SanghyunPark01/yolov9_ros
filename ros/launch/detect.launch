@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="path_to_config" type="string" value="/workspace/HDD1/ros_workspace/yolo_ws/src/yolov9_ros/ros/config/config.yaml" />
+    <node pkg="yolov9_ros" type="detect_ros.py" name="detect_ros" output="screen">
+    </node>
+</launch>

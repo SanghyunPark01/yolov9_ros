@@ -1,0 +1,13 @@
+ros:
+  sub_img_topic_name: "/kitti/camera_color_left/image_raw" # image topic name
+  pub_detect_topic_name: "/detect_info" # (output)detection result topic name
+
+yolo:
+  yolo_path: "/workspace/HDD1/ros_workspace/yolo_ws/src/yolov9_ros"
+  image_width: 640
+  image_height: 480
+  weight_path: "/workspace/HDD1/yolov9/weight/yolov9-c-converted.pt"
+  visualize: false
+
+  # publish visualize image
+  pub_detect_image_topic_name: "/detect_result_img" # if you don't want, check False
