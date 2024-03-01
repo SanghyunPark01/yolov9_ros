@@ -37,6 +37,12 @@ $ roslaunch yolov9_ros detect.launch
     :
     :
   ```
+  <div align="center">
+    <a href="./">
+        <img src="./ros/img/info.png" width="79%"/>
+    </a>
+  </div>
+
 * senor_msgs/Image (Optional) -> modify `config.yaml`
 
 <div align="center">
