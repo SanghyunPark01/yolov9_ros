@@ -15,7 +15,7 @@ $ catkin_make
 
 ### Run
 ```
-$ chmod (your_ros_ws/src/yolov9_ros/ros/scripts/detect_ros.py)
+$ chmod +x (your_ros_ws/src/yolov9_ros/ros/scripts/detect_ros.py)
 $ roslaunch yolov9_ros detect.launch
 ```  
 
@@ -32,8 +32,8 @@ $ roslaunch yolov9_ros detect.launch
     :
   channels->vallues
     L number of object
-    L object_1's [conf,x1,x2,y1,y2]
-    L object_2's [conf,x1,x2,y1,y2]
+    L object_1's [conf,x1,y1,x2,y2]
+    L object_2's [conf,x1,y1,x2,y2]
     :
     :
   ```
